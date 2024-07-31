@@ -8,5 +8,5 @@ def home(request):
     return render(request, 'home.html',{'name':'Nicolas Rico Montesino'})
     
 def about(request):
-    return render(request, 'about.html',{'name':'Nicolas Rico Montesino'})
+    return render(request, 'about.html')
 
